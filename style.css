@@ -1,0 +1,186 @@
+:root {
+    --desaturatedDarkCyan: #5ba4a4;
+    --lightGrayishCyan: #effafa;
+    --lightGrayishCyan: #eef6f6;
+    --darkGrayishCyan: #7b8e8e;
+    --veryDarkGrayishCyan: #2c3a3a;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    background-color: var(--lightGrayishCyan);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    padding-right: 24px;
+}
+
+button {
+    cursor: pointer;
+    background: rgba(92, 165, 165, 0.1);
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.123077px;
+    color: #5CA5A5;
+    border-radius: 4px;
+    padding: 5px 6px;
+
+}
+
+.background__head {
+    background-image: url(./images/bg-header-desktop.svg);
+    height: 156px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 76px;
+}
+
+.status__item {
+    position: absolute;
+    width: 100%;
+    max-width: 1110px;
+    height: 72px;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 48px;
+}
+
+.item__info {
+    display: flex;
+
+}
+
+.filter__item {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1110px;
+    padding: 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 24px;
+}
+
+.info__job {}
+
+.job__company {}
+
+.company__featured {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.company {
+    font-size: 18px;
+    line-height: 17px;
+    color: #5CA5A5;
+    padding-right: 7px;
+}
+
+.job__new {
+    background: #5CA5A5;
+}
+
+.job__base-status {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.107692px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 12px;
+    height: 24px;
+    padding: 7px 6px;
+}
+
+.job__featured {
+    background: #2B3939;
+}
+
+.profession {
+    font-size: 22px;
+    line-height: 24px;
+    color: #2B3939;
+    margin-bottom: 7px;
+}
+
+.job__work-time {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.138462px;
+    color: #7C8F8F;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.role {}
+
+.role__btn {}
+
+.level {}
+
+.languages,
+.tools {
+    display: flex;
+    gap: 16px;
+}
+
+.level__btn {}
+
+.language__btn {}
+
+.tool__btn {}
+
+.btnStatus{
+    position: relative;
+}
+
+.removeButton {
+    background-image: url(./images/removeSign.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32px;
+    height: 32px;
+    background-color: #5CA5A5;
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    top: 0;
+    right: -31px;
+
+}
